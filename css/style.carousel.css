@@ -73,7 +73,7 @@
 
 }
 
-#carousel-principal .owl-caption{
+#carousel-principal .owl-caption {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -84,63 +84,67 @@
     -webkit-border-radius: 10px;
     color: #ffffff;
     padding: 10px;
-    text-align: center;   
-    
+    text-align: center;
+
 }
-#carousel-principal .owl-caption strong{
+
+#carousel-principal .owl-caption strong {
     font-size: 1.5rem;
 }
 
 /* carrosel testemunhos */
 #carousel-testemunhos .owl-prev,
 #carousel-testemunhos .owl-next {
-padding: 5px 11px;
-border-radius: 50%;
--webkit-border-radius: 50%;
+    padding: 5px 11px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
 
 }
 
-#carousel-testemunhos .owl-prev{
+#carousel-testemunhos .owl-prev {
     left: -50px;
 }
-#carousel-testemunhos .owl-next{
+
+#carousel-testemunhos .owl-next {
     right: -50px;
 }
 
 
-#carousel-testemunhos .owl-dots{
+#carousel-testemunhos .owl-dots {
     position: relative;
     top: 20px;
 }
 
 /* carrousel portifolio */
-.carousel-portifolio{
+.carousel-portifolio {
     height: 55vh;
     max-height: 400px;
     min-width: 300px;
     margin-bottom: 30px;
 }
+
 .carousel-portifolio .owl-prev,
 .carousel-portifolio .owl-next {
-text-align: center;
-padding: 0;
-width: 35px;
-height: 35px;
-line-height: 35px;
-/* tira o estilo */
-top: auto;
-bottom: 0;
-/* tira o estilo do transform */
-transform: none;
-left: 0;
-border-right: 3px solid #ffffff;
-border-radius: 0;
+    text-align: center;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    /* tira o estilo */
+    top: auto;
+    bottom: 0;
+    /* tira o estilo do transform */
+    transform: none;
+    left: 0;
+    border-right: 3px solid #ffffff;
+    border-radius: 0;
 }
 
 .carousel-portifolio .owl-next {
-left: 35px;
+    left: 35px;
 }
-.carousel-portifolio .owl-caption{
+
+.carousel-portifolio .owl-caption {
     background-color: rgba(0, 0, 0, .7);
     position: absolute;
     font-size: 0.8125rem;
